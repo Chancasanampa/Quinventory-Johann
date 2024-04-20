@@ -7,21 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-<section class="Frame-Login">
+<section class="Frame">
         <div class="Image-section">
             <img src="imagenes/Login.jpg" alt="imagen de login">
         </div>
         
         <div class="Login-section">
 
-            <div class="Formulario-Inicio">
+            <div class="Inicio">
 
                     <div class="Logo">
                         <article>
                             <img src="imagenes/logoSinFondo.png" alt="">
                         </article>
-                        <h1 class="titulo">QUINVENTORY</h1>
                     </div>
+
+                    <h1 class="titulo">QUINVENTORY</h1>
                     
                     
                     <form class="formulario-login" action="/" method="post">
@@ -38,7 +39,7 @@
                         </div>
 
                         <label class="labelTerminos" for="terms"> 
-                        <input type="checkbox" class="terminos" id="terms" name="terms" required>Acepto los términos y condiciones</label><br>
+                        <input type="checkbox" class="terminos" id="terms" name="terms" required>Acepto los términos y condiciones</label>
                         
                         <input class="btn" id="btnLogin" type="submit" value="Login">
 
