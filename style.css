@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo{
+    font-family: "Archivo Black";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Frame-Login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image-section{
+    width: 160%;
+    height: 100%;
+    background-color: black;
+}
+
+.Image-section img{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.Login-section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 1em;
+}
+
+.Formulario-Inicio{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    height: 100%;
+    width: 500px;
+}
+
+.Logo article{
+   display: grid;
+   place-content: center;
+}
+
+.Logo img{
+    width: 12em;
+    height: 12em;
+}
+
+.formulario-login{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    gap: 1em;
+}
+
+#eAdd, #pass, input::placeholder{
+    text-indent: 1em;
+    font-size: 1.1em;
+}
+
+#pass,#eAdd{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 62px;
+    width: 100%;
+}
+
+#pass:hover,#eAdd:hover{
+    border: 1px solid blue;
+}
+
+.labelTerminos{
+    display: flex;
+    column-gap: 0.2em;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-two{
+    font-size: 12px;
+}
+
+#btnLogin{
+    width: 500px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #17A2B8;
+}
+
+#btnContraseña{
+    width: 50%;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    color: white;
+    background-color: #17A2B8;
+    font-size: 16px;
+}
+
+#btnContacto{
+    width: 50%;
+    height: 48px;
+    border: 1px solid gray;
+    outline: none;
+    font-weight: 550;
+    color: gray;
+    background-color: #efefef;
+    font-size: 16px;
+}
+
+.lineas{
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    height: 1px;
+    background-color: rgb(138, 138, 138);
+}
+
+.line-Two{
+    display: flex;
+    position: end;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    column-gap: 1.2em;
+}
+
